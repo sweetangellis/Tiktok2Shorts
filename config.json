@@ -1,0 +1,55 @@
+{
+    "ffmpeg_path": "ffmpeg",
+    "videos_dir": "./videos",
+    "output_dir": "./output",
+    "watermarks_dir": "./watermarks",
+    "processing": {
+        "color_saturation": 1.05,
+        "brightness": 1.05,
+        "zoom_pulse": 1.0,
+        "denoise_strength": 2,
+        "sharpness": 0.20000000000000015,
+        "watermark_opacity": 0.0,
+        "speed_randomization": 0.019999999999999997,
+        "zoom_factor": 1.02,
+        "pixel_shift": 3,
+        "audio_normalization": false,
+        "crf": 18,
+        "bitrate": "8M",
+        "threads": 8
+    },
+    "channels": {
+        "channel_1743457243": {
+            "name": "Test1",
+            "watermark": null,
+            "upload_schedule": {
+                "enabled": false,
+                "time": "12:00",
+                "days": [
+                    "Monday",
+                    "Wednesday",
+                    "Friday"
+                ]
+            }
+        },
+        "channel_1743535991": {
+            "name": "Lis",
+            "watermark": null,
+            "upload_schedule": {
+                "enabled": false,
+                "time": "12:00",
+                "days": [
+                    "Monday",
+                    "Wednesday",
+                    "Friday"
+                ]
+            }
+        }
+    },
+    "telegram": {
+        "api_id": "",
+        "api_hash": "",
+        "bot_token": "",
+        "chat_id": ""
+    }
+}
